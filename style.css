@@ -9,13 +9,16 @@
   --color-secondary-light: hsl(228, 12%, 48%);
   --color-secondary-white: hsl(0, 0%, 100%);
 
-  --fs: 14px;
+  --fs: .875rem;
 
   --fw-500: 500;
   --fw-700: 700;
 
-  --ff-montserrat: 'Montserrat', sans-serif;
-  --ff-fraunces: 'Fraunces', serif;
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Fraunces', serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-accent: var(--ff-secondary);
 }
 
 /* Box sizing rules */
@@ -82,3 +85,5 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
+
